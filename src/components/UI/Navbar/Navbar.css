@@ -1,0 +1,16 @@
+.navbar {
+  width: 40rem;
+  background-color: gray;  
+}
+
+.navbar > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.navbar > ul > li {
+  font-size: 1rem;
+  text-align: center;
+}
