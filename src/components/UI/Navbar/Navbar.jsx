@@ -6,9 +6,9 @@ export const Navbar = () => {
   return (
     <nav className='navbar'>
       <ul>
-        <ItemNavbar content='Quienes somos' style='red' />
-        <ItemNavbar content='Acerca de nosotros' style='blue' />
-        <ItemNavbar content='FAQ' style='green' />
+        <ItemNavbar style='nav-home' content='Quienes somos' />
+        <ItemNavbar content='Acerca de nosotros' />
+        <ItemNavbar content='FAQ' />
       </ul>
     </nav>
   )
