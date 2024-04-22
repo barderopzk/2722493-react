@@ -1,19 +1,18 @@
 li,a {
-  font-size: 2rem;
-  /* color: #fff; */
+  font-size: 2.5rem;
+  color: #fff;
   list-style: none;
-  text-decoration: none;
+  text-decoration: none;  
 }
 
-.red {
-  color: red;
+li {
+  margin-right: 1rem;
 }
 
-.blue {
-  color: blue;
+li:hover {
+  border-bottom: #fff solid 2px;    
+  font-weight: 900;
 }
 
-.green {
-  color: green;
-}
+
 
